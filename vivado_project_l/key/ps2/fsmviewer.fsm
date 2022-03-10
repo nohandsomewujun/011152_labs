@@ -1,0 +1,64 @@
+fsm_options -device {num[10:0]}
+
+define_state 0000 0000 {e:\hardware\practice\key\ps2\ps2scan.v} 66 4 66 7
+state_output 0000 {num[0]} 1
+
+define_state 0001 0001 {e:\hardware\practice\key\ps2\ps2scan.v} 69 4 69 7
+state_output 0001 {num[1]} 1
+
+define_state 0010 0010 {e:\hardware\practice\key\ps2\ps2scan.v} 73 4 73 7
+state_output 0010 {num[2]} 1
+
+define_state 0011 0011 {e:\hardware\practice\key\ps2\ps2scan.v} 77 4 77 7
+state_output 0011 {num[3]} 1
+
+define_state 0100 0100 {e:\hardware\practice\key\ps2\ps2scan.v} 81 4 81 7
+state_output 0100 {num[4]} 1
+
+define_state 0101 0101 {e:\hardware\practice\key\ps2\ps2scan.v} 85 4 85 7
+state_output 0101 {num[5]} 1
+
+define_state 0110 0110 {e:\hardware\practice\key\ps2\ps2scan.v} 89 4 89 7
+state_output 0110 {num[6]} 1
+
+define_state 0111 0111 {e:\hardware\practice\key\ps2\ps2scan.v} 93 4 93 7
+state_output 0111 {num[7]} 1
+
+define_state 1000 1000 {e:\hardware\practice\key\ps2\ps2scan.v} 97 4 97 7
+state_output 1000 {num[8]} 1
+
+define_state 1001 1001 {e:\hardware\practice\key\ps2\ps2scan.v} 101 4 101 7
+state_output 1001 {num[9]} 1
+
+define_state 1010 1010 {e:\hardware\practice\key\ps2\ps2scan.v} 104 4 104 8
+state_output 1010 {num[10]} 1
+
+fsm_options -resetState 0000
+
+define_transition 1010 1010 {neg_ps2_clk = 0}
+define_transition 1001 1010 {neg_ps2_clk = 1}
+define_transition 1001 1001 {neg_ps2_clk = 0}
+define_transition 1000 1001 {neg_ps2_clk = 1}
+define_transition 1000 1000 {neg_ps2_clk = 0}
+define_transition 0111 1000 {neg_ps2_clk = 1}
+define_transition 0111 0111 {neg_ps2_clk = 0}
+define_transition 0110 0111 {neg_ps2_clk = 1}
+define_transition 0110 0110 {neg_ps2_clk = 0}
+define_transition 0101 0110 {neg_ps2_clk = 1}
+define_transition 0101 0101 {neg_ps2_clk = 0}
+define_transition 0100 0101 {neg_ps2_clk = 1}
+define_transition 0100 0100 {neg_ps2_clk = 0}
+define_transition 0011 0100 {neg_ps2_clk = 1}
+define_transition 0011 0011 {neg_ps2_clk = 0}
+define_transition 0010 0011 {neg_ps2_clk = 1}
+define_transition 0010 0010 {neg_ps2_clk = 0}
+define_transition 0001 0010 {neg_ps2_clk = 1}
+define_transition 0001 0001 {neg_ps2_clk = 0}
+define_transition 0000 0001 {neg_ps2_clk = 1}
+define_transition 1010 0000 {neg_ps2_clk = 1}
+define_transition 0000 0000 {neg_ps2_clk = 0}
+fsm_options -SRSPath {E:\hardware\practice\key\ps2\top.srs}
+fsm_options -SRSTime 1364727806
+fsm_options -FSMPath {ps2_key.ps2scan.num[10:0]}
+fsm_options -view {ScratchLib.cell4.netlist|i:num[10:0]}
+fsm_options -ID {5591591}

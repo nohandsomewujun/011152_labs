@@ -1,0 +1,583 @@
+Release 14.6 - xst P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\hardware\practice\key\ps2\ipcore_dir\rom.v" into library work
+Parsing module <rom>.
+Analyzing Verilog file "E:\hardware\practice\key\ps2\vga_dis.v" into library work
+Parsing module <vga_dis>.
+Analyzing Verilog file "E:\hardware\practice\key\ps2\ps2scan.v" into library work
+Parsing module <ps2scan>.
+Analyzing Verilog file "E:\hardware\practice\key\ps2\vga_dis_top.v" into library work
+Parsing module <vga_dis_test>.
+Analyzing Verilog file "E:\hardware\practice\key\ps2\p2_key.v" into library work
+Parsing module <ps2_key>.
+Analyzing Verilog file "E:\hardware\practice\key\ps2\top.v" into library work
+Parsing module <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <top>.
+
+Elaborating module <ps2_key>.
+
+Elaborating module <ps2scan>.
+
+Elaborating module <vga_dis_test>.
+
+Elaborating module <vga_dis>.
+WARNING:HDLCompiler:1127 - "E:\hardware\practice\key\ps2\vga_dis.v" Line 69: Assignment to xpos ignored, since the identifier is never used
+
+Elaborating module <rom>.
+WARNING:HDLCompiler:1499 - "E:\hardware\practice\key\ps2\ipcore_dir\rom.v" Line 39: Empty module <rom> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top>.
+    Related source file is "E:\hardware\practice\key\ps2\top.v".
+    Found 1-bit register for signal <cnt>.
+    Found 1-bit adder for signal <cnt_PWR_1_o_add_0_OUT<0>> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 D-type flip-flop(s).
+Unit <top> synthesized.
+
+Synthesizing Unit <ps2_key>.
+    Related source file is "E:\hardware\practice\key\ps2\p2_key.v".
+    Summary:
+	no macro.
+Unit <ps2_key> synthesized.
+
+Synthesizing Unit <ps2scan>.
+    Related source file is "E:\hardware\practice\key\ps2\ps2scan.v".
+    Found 4-bit register for signal <num>.
+    Found 8-bit register for signal <temp_data>.
+    Found 8-bit register for signal <ps2_byte_r>.
+    Found 1-bit register for signal <ps2_clk_r1>.
+    Found 1-bit register for signal <ps2_clk_r2>.
+    Found 1-bit register for signal <key_f0>.
+    Found 1-bit register for signal <ps2_state_r>.
+    Found 1-bit register for signal <ps2_clk_r0>.
+    Found 8-bit register for signal <ps2_ascii>.
+    Found 4-bit adder for signal <num[3]_GND_3_o_add_9_OUT> created at line 103.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   9 Multiplexer(s).
+Unit <ps2scan> synthesized.
+
+Synthesizing Unit <vga_dis_test>.
+    Related source file is "E:\hardware\practice\key\ps2\vga_dis_top.v".
+    Found 1-bit register for signal <cnt>.
+    Found 1-bit adder for signal <cnt_PWR_4_o_add_0_OUT<0>> created at line 41.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 D-type flip-flop(s).
+Unit <vga_dis_test> synthesized.
+
+Synthesizing Unit <vga_dis>.
+    Related source file is "E:\hardware\practice\key\ps2\vga_dis.v".
+    Found 1-bit register for signal <vsync_r>.
+    Found 1-bit register for signal <hsync_r>.
+    Found 10-bit register for signal <y_cnt>.
+    Found 4-bit register for signal <charbit>.
+    Found 4-bit register for signal <nextline>.
+    Found 8-bit register for signal <vga_rgb>.
+    Found 11-bit register for signal <x_cnt>.
+    Found 10-bit subtractor for signal <ypos> created at line 70.
+    Found 11-bit adder for signal <x_cnt[10]_GND_5_o_add_1_OUT> created at line 47.
+    Found 10-bit adder for signal <y_cnt[9]_GND_5_o_add_6_OUT> created at line 56.
+    Found 4-bit adder for signal <charbit[3]_GND_5_o_add_25_OUT> created at line 119.
+    Found 4-bit adder for signal <nextline[3]_GND_5_o_add_30_OUT> created at line 128.
+    Found 1-bit 16-to-1 multiplexer for signal <charbit[3]_charline[15]_Mux_40_o> created at line 143.
+    Found 11-bit comparator lessequal for signal <n0009> created at line 63
+    Found 11-bit comparator greater for signal <x_cnt[10]_GND_5_o_LessThan_12_o> created at line 63
+    Found 10-bit comparator lessequal for signal <n0013> created at line 64
+    Found 10-bit comparator greater for signal <y_cnt[9]_PWR_5_o_LessThan_14_o> created at line 64
+    Found 11-bit comparator greater for signal <GND_5_o_x_cnt[10]_LessThan_24_o> created at line 118
+    Found 11-bit comparator greater for signal <x_cnt[10]_GND_5_o_LessThan_25_o> created at line 118
+    Found 10-bit comparator greater for signal <ypos[9]_GND_5_o_LessThan_32_o> created at line 129
+    Found 10-bit comparator greater for signal <n0044> created at line 129
+    Found 11-bit comparator lessequal for signal <n0051> created at line 141
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  39 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  25 Multiplexer(s).
+Unit <vga_dis> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 1-bit adder                                           : 2
+ 10-bit adder                                          : 1
+ 10-bit subtractor                                     : 1
+ 11-bit adder                                          : 1
+ 4-bit adder                                           : 3
+# Registers                                            : 18
+ 1-bit register                                        : 9
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 4-bit register                                        : 3
+ 8-bit register                                        : 4
+# Comparators                                          : 9
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 3
+ 11-bit comparator lessequal                           : 2
+# Multiplexers                                         : 34
+ 1-bit 16-to-1 multiplexer                             : 1
+ 1-bit 2-to-1 multiplexer                              : 17
+ 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/rom.ngc>.
+Loading core <rom> for timing and area information for instance <your_instance_name>.
+INFO:Xst:2261 - The FF/Latch <ps2_ascii_5> in Unit <ps2scan> is equivalent to the following FF/Latch, which will be removed : <ps2_ascii_7> 
+
+Synthesizing (advanced) Unit <ps2scan>.
+The following registers are absorbed into counter <num>: 1 register on signal <num>.
+Unit <ps2scan> synthesized (advanced).
+
+Synthesizing (advanced) Unit <top>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <top> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_dis>.
+The following registers are absorbed into counter <x_cnt>: 1 register on signal <x_cnt>.
+The following registers are absorbed into counter <y_cnt>: 1 register on signal <y_cnt>.
+The following registers are absorbed into counter <nextline>: 1 register on signal <nextline>.
+Unit <vga_dis> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_dis_test>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <vga_dis_test> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 10-bit subtractor                                     : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 6
+ 1-bit up counter                                      : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+# Comparators                                          : 9
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 3
+ 11-bit comparator lessequal                           : 2
+# Multiplexers                                         : 30
+ 1-bit 16-to-1 multiplexer                             : 1
+ 1-bit 2-to-1 multiplexer                              : 17
+ 4-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <ps2_ascii_5> in Unit <ps2scan> is equivalent to the following FF/Latch, which will be removed : <ps2_ascii_7> 
+INFO:Xst:2146 - In block <top>, Counter <cnt> <vga_dis_test/cnt> are equivalent, XST will keep only <cnt>.
+INFO:Xst:2261 - The FF/Latch <vga_rgb_0> in Unit <vga_dis> is equivalent to the following 7 FFs/Latches, which will be removed : <vga_rgb_1> <vga_rgb_2> <vga_rgb_3> <vga_rgb_4> <vga_rgb_5> <vga_rgb_6> <vga_rgb_7> 
+
+Optimizing unit <top> ...
+
+Optimizing unit <vga_dis> ...
+
+Optimizing unit <ps2scan> ...
+WARNING:Xst:1710 - FF/Latch <ps2_ascii_6> (without init value) has a constant value of 1 in block <ps2scan>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ps2_ascii_6> (without init value) has a constant value of 1 in block <ps2scan>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 163
+#      GND                         : 2
+#      INV                         : 2
+#      LUT1                        : 5
+#      LUT2                        : 4
+#      LUT3                        : 21
+#      LUT4                        : 15
+#      LUT5                        : 18
+#      LUT6                        : 54
+#      MUXCY                       : 19
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 64
+#      FD                          : 6
+#      FDC                         : 22
+#      FDCE                        : 34
+#      FDP                         : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 3
+#      OBUF                        : 19
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              64  out of  18224     0%  
+ Number of Slice LUTs:                  119  out of   9112     1%  
+    Number used as Logic:               119  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    120
+   Number with an unused Flip Flop:      56  out of    120    46%  
+   Number with an unused LUT:             1  out of    120     0%  
+   Number of fully used LUT-FF pairs:    63  out of    120    52%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    232     9%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+cnt                                | BUFG                   | 63    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.856ns (Maximum Frequency: 205.924MHz)
+   Minimum input arrival time before clock: 4.037ns
+   Maximum output required time after clock: 3.820ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.913ns (frequency: 522.821MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.913ns (Levels of Logic = 1)
+  Source:            cnt (FF)
+  Destination:       cnt (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cnt to cnt
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  cnt (cnt)
+     INV:I->O              1   0.206   0.579  Mcount_cnt_xor<0>11_INV_0 (Result)
+     FDC:D                     0.102          cnt
+    ----------------------------------------
+    Total                      1.913ns (0.755ns logic, 1.158ns route)
+                                       (39.5% logic, 60.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cnt'
+  Clock period: 4.856ns (frequency: 205.924MHz)
+  Total number of paths / destination ports: 2106 / 96
+-------------------------------------------------------------------------
+Delay:               4.856ns (Levels of Logic = 3)
+  Source:            vga_dis_test/vga_dis/y_cnt_7 (FF)
+  Destination:       vga_dis_test/vga_dis/y_cnt_9 (FF)
+  Source Clock:      cnt rising
+  Destination Clock: cnt rising
+
+  Data Path: vga_dis_test/vga_dis/y_cnt_7 to vga_dis_test/vga_dis/y_cnt_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.447   1.059  vga_dis_test/vga_dis/y_cnt_7 (vga_dis_test/vga_dis/y_cnt_7)
+     LUT5:I0->O            7   0.203   0.774  vga_dis_test/vga_dis/y_cnt[9]_PWR_5_o_equal_5_o<9>_SW0 (N7)
+     LUT6:I5->O            4   0.205   0.788  vga_dis_test/vga_dis/y_cnt[9]_PWR_5_o_equal_5_o<9> (vga_dis_test/vga_dis/y_cnt[9]_PWR_5_o_equal_5_o)
+     LUT2:I0->O           10   0.203   0.856  vga_dis_test/vga_dis/_n0134_inv2 (vga_dis_test/vga_dis/_n0134_inv)
+     FDCE:CE                   0.322          vga_dis_test/vga_dis/y_cnt_0
+    ----------------------------------------
+    Total                      4.856ns (1.380ns logic, 3.476ns route)
+                                       (28.4% logic, 71.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.037ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       cnt (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to cnt
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O             58   0.206   1.600  rst_n_inv1_INV_0 (ps2_key/ps2scan/rst_n_inv)
+     FDC:CLR                   0.430          cnt
+    ----------------------------------------
+    Total                      4.037ns (1.858ns logic, 2.179ns route)
+                                       (46.0% logic, 54.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cnt'
+  Total number of paths / destination ports: 66 / 66
+-------------------------------------------------------------------------
+Offset:              4.037ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       vga_dis_test/vga_dis/nextline_3 (FF)
+  Destination Clock: cnt rising
+
+  Data Path: rst_n to vga_dis_test/vga_dis/nextline_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O             58   0.206   1.600  rst_n_inv1_INV_0 (ps2_key/ps2scan/rst_n_inv)
+     FDC:CLR                   0.430          ps2_key/ps2scan/ps2_clk_r0
+    ----------------------------------------
+    Total                      4.037ns (1.858ns logic, 2.179ns route)
+                                       (46.0% logic, 54.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cnt'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              3.820ns (Levels of Logic = 1)
+  Source:            vga_dis_test/vga_dis/vga_rgb_0 (FF)
+  Destination:       vga_r<2> (PAD)
+  Source Clock:      cnt rising
+
+  Data Path: vga_dis_test/vga_dis/vga_rgb_0 to vga_r<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              8   0.447   0.802  vga_dis_test/vga_dis/vga_rgb_0 (vga_dis_test/vga_dis/vga_rgb_0)
+     OBUF:I->O                 2.571          vga_r_2_OBUF (vga_r<2>)
+    ----------------------------------------
+    Total                      3.820ns (3.018ns logic, 0.802ns route)
+                                       (79.0% logic, 21.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.913|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cnt
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cnt            |    4.856|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.13 secs
+ 
+--> 
+
+Total memory usage is 147516 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+//Mac/Home/Desktop/模电实验/tb_fib.v,1635837502,verilog,,,,tb_fib,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/ALU.v,1635836660,verilog,,Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch.v,,ALU,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch.v,1635765454,verilog,,Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch1.v,,Launch0,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch1.v,1635765501,verilog,,Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/a_b_add.v,,Launch1,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/a_b_add.v,1635562141,verilog,,Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/fibonacii.v,,a_b_add,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/fibonacii.v,1635836649,verilog,,Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/onebit_add.v,,fibonacii,,,,,,,,
+Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/onebit_add.v,1635562075,verilog,,//Mac/Home/Desktop/模电实验/tb_fib.v,,onebit_add,,,,,,,,

@@ -1,0 +1,40 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: xc6slx16csg324-3
+Cell usage:
+FDC             5 uses
+FDCE            50 uses
+FDP             2 uses
+FDRE            5 uses
+GND             5 uses
+MUXCY_L         27 uses
+VCC             5 uses
+XORCY           27 uses
+LUT1            31 uses
+LUT2            10 uses
+LUT3            8 uses
+LUT4            9 uses
+LUT5            13 uses
+LUT6            26 uses
+
+I/O ports: 14
+I/O primitives: 14
+IBUF           3 uses
+IBUFG          1 use
+OBUF           10 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   62 (0%)
+
+Global Clock Buffers: 1 of 16 (6%)
+
+
+Mapping Summary:
+Total  LUTs: 90 (0%)
+
+
+ Number of unique control sets:              7
+

@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+//Mac/Home/Desktop/模电实验/tb_alu.v,1635835633,verilog,,,,alu_test,,,,,,,,
+Y:/vivado_project/ALU_project/ALU_project.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Y:/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/a_b_add.v,1635557912,verilog,,Y:/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/getall.v,,a_b_add,,,,,,,,
+Y:/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/getall.v,1635836055,verilog,,Y:/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/onebit_add.v,,ALU,,,,,,,,
+Y:/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/onebit_add.v,1635412946,verilog,,//Mac/Home/Desktop/模电实验/tb_alu.v,,onebit_add,,,,,,,,
+Z:/Users/apple/vivado_project/ALU_project/ALU_project.srcs/sources_1/new/fourbit_add.v,1635405086,verilog,,,,fourbit_add,,,,,,,,

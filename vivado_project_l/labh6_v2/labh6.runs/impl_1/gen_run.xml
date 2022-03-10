@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1639043762">
+  <File Type="BITSTR-BMM" Name="Print_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Print_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Print_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Print_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Print.tcl"/>
+  <File Type="OPT-TIMING" Name="Print_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Print_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Print_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Print_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Print_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Print.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Print_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Print_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Print_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Print_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Print_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Print_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Print_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Print_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Print_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Print_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Print_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Print.bgn"/>
+  <File Type="PLACE-TIMING" Name="Print_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Print_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Print.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Print_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Print_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Print_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Print.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Print_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Print_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Print_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Print_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Print_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Print_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Print.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Print_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Print.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Print_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Print_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Print.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Print_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Print_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Print_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Print_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Print_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Print_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Print_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Print_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Print_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Print_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Print_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Print_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Print_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Print_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Print_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Print_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Print_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Print_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Print_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Print.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Print_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Print.rbt"/>
+  <File Type="BITSTR-NKY" Name="Print.nky"/>
+  <File Type="BG-DRC" Name="Print.drc"/>
+  <File Type="RDI-RDI" Name="Print.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/DB.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DIS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SRA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VDT.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decoder7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decodercnt.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fqp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/trigger.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PNT_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter20.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VDS.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/coe.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe_rom.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//Mac/Home/Desktop/background.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Desktop/background.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Print"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/PNTS.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ROM"/>
+  <BlockFileSet Type="BlockSrcs" Name="VRAM"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk50"/>
+</GenRun>

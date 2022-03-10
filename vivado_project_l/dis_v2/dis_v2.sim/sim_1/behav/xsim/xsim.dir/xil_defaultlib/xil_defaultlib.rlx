@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Y:/Programs/vivado_project/dis_v2/dis_v2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sim_1/new/getall_v2_tb.v,1637241754,verilog,,,,getall_tb,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/decoder7.v,1637222994,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/decodercnt.v,,decoder7,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/decodercnt.v,1637226823,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/fpq.v,,decodercnt,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/fpq.v,1637142089,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/getall.v,,fpq,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/getall.v,1637220956,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/getall_v2.v,,getall,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/mux.v,1637142888,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/ps.v,,mux,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/cnt3.v,1637224483,verilog,,Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/counter.v,,cnt3,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/counter_v2.v,1637219669,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/d_trigger.v,,counter_v2,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/d_trigger.v,1637146108,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/db.v,,d_trigger,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/db.v,1637149016,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/decoder7.v,,db,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/getall_v2.v,1637223822,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/imports/new/mux.v,,getall_v2,,,,,,,,
+Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/ps.v,1637147667,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sim_1/new/getall_v2_tb.v,,ps,,,,,,,,
+Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/counter.v,1637142595,verilog,,Y:/Programs/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/counter_v2.v,,counter,,,,,,,,

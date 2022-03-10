@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Launch0
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/Launch1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Launch1
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/a_b_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module a_b_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/fibonacii.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fibonacii
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.srcs/sources_1/new/onebit_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebit_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/Fibonacii_output/Fibonacii_output.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

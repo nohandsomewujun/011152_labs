@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  6 17:24:44 2021
+# Process ID: 3772
+# Current directory: Y:/vivado_project/sir_v3/sir_v3.runs/synth_1
+# Command line: vivado.exe -log sir.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sir.tcl
+# Log file: Y:/vivado_project/sir_v3/sir_v3.runs/synth_1/sir.vds
+# Journal file: Y:/vivado_project/sir_v3/sir_v3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sir.tcl -notrace

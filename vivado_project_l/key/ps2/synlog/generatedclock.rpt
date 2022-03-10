@@ -1,0 +1,48 @@
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+        vga_dis_test.vga_dis.charline[7]:C              Done
+        vga_dis_test.vga_dis.charline[6]:C              Done
+        vga_dis_test.vga_dis.charline[3]:C              Done
+        vga_dis_test.vga_dis.charline[2]:C              Done
+        vga_dis_test.vga_dis.charline[1]:C              Done
+         vga_dis_test.vga_dis.vga_rgb[0]:C              Done
+         vga_dis_test.vga_dis.charbit[1]:C              Done
+         vga_dis_test.vga_dis.charbit[0]:C              Done
+           vga_dis_test.vga_dis.y_cnt[9]:C              Done
+           vga_dis_test.vga_dis.y_cnt[8]:C              Done
+           vga_dis_test.vga_dis.y_cnt[7]:C              Done
+           vga_dis_test.vga_dis.y_cnt[6]:C              Done
+           vga_dis_test.vga_dis.y_cnt[5]:C              Done
+           vga_dis_test.vga_dis.y_cnt[4]:C              Done
+           vga_dis_test.vga_dis.y_cnt[3]:C              Done
+           vga_dis_test.vga_dis.y_cnt[2]:C              Done
+           vga_dis_test.vga_dis.y_cnt[1]:C              Done
+           vga_dis_test.vga_dis.y_cnt[0]:C              Done
+           vga_dis_test.vga_dis.x_cnt[8]:C              Done
+           vga_dis_test.vga_dis.x_cnt[7]:C              Done
+           vga_dis_test.vga_dis.x_cnt[6]:C              Done
+           vga_dis_test.vga_dis.x_cnt[5]:C              Done
+           vga_dis_test.vga_dis.x_cnt[4]:C              Done
+           vga_dis_test.vga_dis.x_cnt[3]:C              Done
+           vga_dis_test.vga_dis.x_cnt[2]:C              Done
+           vga_dis_test.vga_dis.x_cnt[1]:C              Done
+           vga_dis_test.vga_dis.x_cnt[0]:C              Done
+        vga_dis_test.vga_dis.nextline[3]:C              Done
+        vga_dis_test.vga_dis.nextline[2]:C              Done
+        vga_dis_test.vga_dis.nextline[1]:C              Done
+        vga_dis_test.vga_dis.nextline[0]:C              Done
+         vga_dis_test.vga_dis.charbit[3]:C              Done
+         vga_dis_test.vga_dis.charbit[2]:C              Done
+          vga_dis_test.vga_dis.x_cnt[10]:C              Done
+           vga_dis_test.vga_dis.x_cnt[9]:C              Done
+            vga_dis_test.vga_dis.hsync_r:C              Done
+            vga_dis_test.vga_dis.vsync_r:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+

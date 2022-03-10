@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Y:/Programs/vivado_project/FLS/FLS.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sim_1/new/fls_tb.v,1636638744,verilog,,,,fls_tb,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/ALU.v,1636638823,verilog,,Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/FLS.v,,ALU,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/FLS.v,1636638531,verilog,,Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/d_trigger.v,,FLS,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/d_trigger.v,1636518343,verilog,,Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/mux.v,,d_trigger,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/mux.v,1636617552,verilog,,Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/onebit_add.v,,mux,,,,,,,,
+Y:/Programs/vivado_project/FLS/FLS.srcs/sources_1/new/onebit_add.v,1636518265,verilog,,Y:/Programs/vivado_project/FLS/FLS.srcs/sim_1/new/fls_tb.v,,onebit_add,,,,,,,,

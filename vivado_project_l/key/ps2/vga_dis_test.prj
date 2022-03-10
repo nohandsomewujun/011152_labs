@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/rom.v"
+verilog work "vga_dis.v"
+verilog work "vga_dis_top.v"

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/decoder7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder7
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/decodercnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decodercnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/fpq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpq
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/getall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getall
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/Programs/vivado_project/ledconter/ledconter.srcs/sim_1/new/getall_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getall_tb

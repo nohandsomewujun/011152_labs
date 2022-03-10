@@ -1,0 +1,251 @@
+Synopsys Xilinx Technology Mapper, Version maprc, Build 388R, Built Mar  1 2011 12:28:29
+Copyright (C) 1994-2011, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version E-2011.03
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <D:\Synopsys\fpga_E201103\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <D:\Synopsys\fpga_E201103\lib\xilinx\gttype.txt> 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"e:\hardware\practice\key\ps2\vga_dis.v":91:15:91:28|Rom charline_2[6] mapped in logic.
+@N: FA239 :"e:\hardware\practice\key\ps2\vga_dis.v":91:15:91:28|Rom charline_2[3:1] mapped in logic.
+@N: MO106 :"e:\hardware\practice\key\ps2\vga_dis.v":91:15:91:28|Found ROM, 'charline_2[6]', 16 words by 1 bits 
+@N: MO106 :"e:\hardware\practice\key\ps2\vga_dis.v":91:15:91:28|Found ROM, 'charline_2[3:1]', 16 words by 3 bits 
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 70MB)
+
+Encoding state machine work.ps2scan(verilog)-num[10:0]
+original code -> new code
+   0000 -> 0000
+   0001 -> 0001
+   0010 -> 0010
+   0011 -> 0011
+   0100 -> 0100
+   0101 -> 0101
+   0110 -> 0110
+   0111 -> 0111
+   1000 -> 1000
+   1001 -> 1001
+   1010 -> 1010
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+        vga_dis_test.vga_dis.charline[7]:C              Done
+        vga_dis_test.vga_dis.charline[6]:C              Done
+        vga_dis_test.vga_dis.charline[3]:C              Done
+        vga_dis_test.vga_dis.charline[2]:C              Done
+        vga_dis_test.vga_dis.charline[1]:C              Done
+         vga_dis_test.vga_dis.vga_rgb[0]:C              Done
+         vga_dis_test.vga_dis.charbit[1]:C              Done
+         vga_dis_test.vga_dis.charbit[0]:C              Done
+           vga_dis_test.vga_dis.y_cnt[9]:C              Done
+           vga_dis_test.vga_dis.y_cnt[8]:C              Done
+           vga_dis_test.vga_dis.y_cnt[7]:C              Done
+           vga_dis_test.vga_dis.y_cnt[6]:C              Done
+           vga_dis_test.vga_dis.y_cnt[5]:C              Done
+           vga_dis_test.vga_dis.y_cnt[4]:C              Done
+           vga_dis_test.vga_dis.y_cnt[3]:C              Done
+           vga_dis_test.vga_dis.y_cnt[2]:C              Done
+           vga_dis_test.vga_dis.y_cnt[1]:C              Done
+           vga_dis_test.vga_dis.y_cnt[0]:C              Done
+           vga_dis_test.vga_dis.x_cnt[8]:C              Done
+           vga_dis_test.vga_dis.x_cnt[7]:C              Done
+           vga_dis_test.vga_dis.x_cnt[6]:C              Done
+           vga_dis_test.vga_dis.x_cnt[5]:C              Done
+           vga_dis_test.vga_dis.x_cnt[4]:C              Done
+           vga_dis_test.vga_dis.x_cnt[3]:C              Done
+           vga_dis_test.vga_dis.x_cnt[2]:C              Done
+           vga_dis_test.vga_dis.x_cnt[1]:C              Done
+           vga_dis_test.vga_dis.x_cnt[0]:C              Done
+        vga_dis_test.vga_dis.nextline[3]:C              Done
+        vga_dis_test.vga_dis.nextline[2]:C              Done
+        vga_dis_test.vga_dis.nextline[1]:C              Done
+        vga_dis_test.vga_dis.nextline[0]:C              Done
+         vga_dis_test.vga_dis.charbit[3]:C              Done
+         vga_dis_test.vga_dis.charbit[2]:C              Done
+          vga_dis_test.vga_dis.x_cnt[10]:C              Done
+           vga_dis_test.vga_dis.x_cnt[9]:C              Done
+            vga_dis_test.vga_dis.hsync_r:C              Done
+            vga_dis_test.vga_dis.vsync_r:C              Done
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 70MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port clk,
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+@N: MO106 :"e:\hardware\practice\key\ps2\ps2scan.v":146:2:146:5|Found ROM, 'ps2_key.ps2scan.ps2_ascii[4:0]', 26 words by 5 bits 
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: FX623 |Packing into LUT62
+
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Writing Analyst data base E:\hardware\practice\key\ps2\top.srm
+
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 70MB)
+
+Writing EDIF Netlist and constraint files
+E-2011.03
+
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 70MB)
+
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 70MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 70MB)
+
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 70MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 70MB)
+
+@W: MT420 |Found inferred clock top|clk with period 1000.00ns. A user-defined clock should be declared on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Mar 31 19:03:33 2013
+#
+
+
+Top view:               top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        0
+Constraint File(s):    E:\hardware\practice\key\ps2\top.sdc
+                       
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 996.263
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+top|clk            1.0 MHz       267.6 MHz     1000.000      3.737         996.263     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+top|clk   top|clk  |  1000.000    996.263  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: xc6slx16csg324-3
+Cell usage:
+FDC             5 uses
+FDCE            50 uses
+FDP             2 uses
+FDRE            5 uses
+GND             5 uses
+MUXCY_L         27 uses
+VCC             5 uses
+XORCY           27 uses
+LUT1            31 uses
+LUT2            10 uses
+LUT3            8 uses
+LUT4            9 uses
+LUT5            13 uses
+LUT6            26 uses
+
+I/O ports: 14
+I/O primitives: 14
+IBUF           3 uses
+IBUFG          1 use
+OBUF           10 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   62 (0%)
+
+Global Clock Buffers: 1 of 16 (6%)
+
+Total load per clock:
+   top|clk: 26
+
+Mapping Summary:
+Total  LUTs: 90 (0%)
+
+
+ Number of unique control sets:              7
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sun Mar 31 19:03:33 2013
+
+###########################################################]

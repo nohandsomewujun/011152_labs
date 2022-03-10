@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sim_1/new/getall_tb.v,1635254658,verilog,,,,getall_tb,,,,,,,,
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/getall.v,1635170146,verilog,,Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/leddecode.v,,getall,,,,,,,,
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/leddecode.v,1635256596,verilog,,Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/light_decode.v,,leddecode,,,,,,,,
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/light_decode.v,1635256554,verilog,,Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/pre_encode.v,,light_decode,,,,,,,,
+Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/pre_encode.v,1635254176,verilog,,Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sim_1/new/getall_tb.v,,pre_encode,,,,,,,,

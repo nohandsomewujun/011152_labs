@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Fibonacii_output.srcs/sources_1/new/ALU.v" \
+"../../../../Fibonacii_output.srcs/sources_1/new/Launch.v" \
+"../../../../Fibonacii_output.srcs/sources_1/new/Launch1.v" \
+"../../../../Fibonacii_output.srcs/sources_1/new/a_b_add.v" \
+"../../../../Fibonacii_output.srcs/sources_1/new/fibonacii.v" \
+"../../../../Fibonacii_output.srcs/sources_1/new/onebit_add.v" \
+"//Mac/Home/Desktop/模电实验/tb_fib.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec  5 20:30:01 2021
+# Process ID: 23204
+# Current directory: D:/moshushiyan/labh6/labh6.runs/clk50_synth_1
+# Command line: vivado.exe -log clk50.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk50.tcl
+# Log file: D:/moshushiyan/labh6/labh6.runs/clk50_synth_1/clk50.vds
+# Journal file: D:/moshushiyan/labh6/labh6.runs/clk50_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk50.tcl -notrace

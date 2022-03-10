@@ -1,0 +1,99 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Dec  9 18:12:32 2021
+| Host         : 969E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Print_control_sets_placed.rpt
+| Design       : Print
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    21 |
+|    Minimum number of control sets                        |    21 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    21 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              27 |           19 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              30 |           13 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             283 |           74 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------+------------------------+------------------+----------------+
+|      Clock Signal     |     Enable Signal    |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++-----------------------+----------------------+------------------------+------------------+----------------+
+|  db3/y_reg_i_1__1_n_0 |                      | db3/y_reg_i_2__1_n_0   |                1 |              1 |
+|  db1/y_reg_i_1_n_0    |                      | db1/y_reg_i_2_n_0      |                1 |              1 |
+|  db2/y_reg_i_1__0_n_0 |                      | db2/y_reg_i_2__0_n_0   |                1 |              1 |
+|  db4/y_reg_i_1__2_n_0 |                      | db4/y_reg_i_2__2_n_0   |                1 |              1 |
+|  ip1/inst/clk_out1    |                      |                        |                2 |              2 |
+|  ip1/inst/clk_out1    |                      | rstn_IBUF              |                2 |              2 |
+|  d0/a0/cnt_reg[2]_0   |                      |                        |                1 |              2 |
+|  clk_IBUF_BUFG        | d2/sel               | rstn_IBUF              |                3 |              8 |
+|  clk_IBUF_BUFG        | ps1/a1/E[0]          | rstn_IBUF              |                3 |              8 |
+|  ip1/inst/clk_out1    |                      | d1/h_cnt[10]_i_1_n_0   |                3 |             11 |
+|  ip1/inst/clk_out1    | d1/v_cnt[10]_i_2_n_0 | d1/v_cnt[10]_i_1_n_0   |                4 |             11 |
+|  clk_IBUF_BUFG        |                      | rstn_IBUF              |                4 |             13 |
+|  clk_IBUF_BUFG        |                      |                        |               16 |             23 |
+|  clk_IBUF_BUFG        | db1/cnt0             | db1/cnt[0]_i_1_n_0     |                8 |             32 |
+|  clk_IBUF_BUFG        | db1/cnt11            | db1/cnt1[0]_i_1_n_0    |                8 |             32 |
+|  clk_IBUF_BUFG        | db2/cnt11            | db2/cnt1[0]_i_1__0_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG        | db2/cnt0             | db2/cnt[0]_i_1__0_n_0  |                8 |             32 |
+|  clk_IBUF_BUFG        | db3/cnt11            | db3/cnt1[0]_i_1__1_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG        | db3/cnt0             | db3/cnt[0]_i_1__1_n_0  |                8 |             32 |
+|  clk_IBUF_BUFG        | db4/cnt11            | db4/cnt1[0]_i_1__2_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG        | db4/cnt0             | db4/cnt[0]_i_1__2_n_0  |                8 |             32 |
++-----------------------+----------------------+------------------------+------------------+----------------+
+
+

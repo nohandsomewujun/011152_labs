@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ledconter.srcs/sources_1/new/counter.v" \
+"../../../../ledconter.srcs/sources_1/new/decoder7.v" \
+"../../../../ledconter.srcs/sources_1/new/decodercnt.v" \
+"../../../../ledconter.srcs/sources_1/new/fpq.v" \
+"../../../../ledconter.srcs/sources_1/new/getall.v" \
+"../../../../ledconter.srcs/sources_1/new/mux.v" \
+"../../../../ledconter.srcs/sim_1/new/getall_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

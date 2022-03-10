@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/getall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getall
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/leddecode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leddecode
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/light_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sources_1/new/pre_encode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pre_encode
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.srcs/sim_1/new/getall_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getall_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/Users/apple/vivado_project/pre_3_output/pre_3_output.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

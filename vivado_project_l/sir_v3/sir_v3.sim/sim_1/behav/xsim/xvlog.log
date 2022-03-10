@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/sir_v3/sir_v3.srcs/sources_1/imports/new/sir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sir
+INFO: [VRFC 10-2263] Analyzing Verilog file "Y:/vivado_project/sir_v3/sir_v3.srcs/sim_1/imports/new/sir_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sir_tb

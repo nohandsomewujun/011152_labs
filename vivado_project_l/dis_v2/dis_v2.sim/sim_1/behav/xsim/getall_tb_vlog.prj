@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../dis_v2.srcs/sources_1/new/cnt3.v" \
+"../../../../../ledconter/ledconter.srcs/sources_1/new/counter.v" \
+"../../../../dis_v2.srcs/sources_1/new/counter_v2.v" \
+"../../../../dis_v2.srcs/sources_1/new/d_trigger.v" \
+"../../../../dis_v2.srcs/sources_1/new/db.v" \
+"../../../../dis_v2.srcs/sources_1/imports/new/decoder7.v" \
+"../../../../dis_v2.srcs/sources_1/imports/new/decodercnt.v" \
+"../../../../dis_v2.srcs/sources_1/imports/new/fpq.v" \
+"../../../../dis_v2.srcs/sources_1/imports/new/getall.v" \
+"../../../../dis_v2.srcs/sources_1/new/getall_v2.v" \
+"../../../../dis_v2.srcs/sources_1/imports/new/mux.v" \
+"../../../../dis_v2.srcs/sources_1/new/ps.v" \
+"../../../../dis_v2.srcs/sim_1/new/getall_v2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

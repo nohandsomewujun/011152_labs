@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/cnt3.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/counter.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/counter_v2.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/d_trigger.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/db.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/decoder7.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/fpq.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/getall.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/getall_v2.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/mux.v" \
+"../../../../dis_v3.srcs/sources_1/imports/vivado_project/dis_v2/dis_v2.srcs/sources_1/new/ps.v" \
+"../../../../dis_v3.srcs/sim_1/imports/new/getall_v2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

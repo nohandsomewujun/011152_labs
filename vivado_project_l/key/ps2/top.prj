@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/rom.v"
+verilog work "vga_dis.v"
+verilog work "ps2scan.v"
+verilog work "vga_dis_top.v"
+verilog work "p2_key.v"
+verilog work "top.v"

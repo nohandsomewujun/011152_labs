@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sim_1/new/getall_tb.v,1637073208,verilog,,,,getall_tb,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/counter.v,1637215044,verilog,,Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/decoder7.v,,counter,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/decoder7.v,1637060943,verilog,,Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/fpq.v,,decoder7,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/fpq.v,1637142089,verilog,,Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/getall.v,,fpq,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/getall.v,1637215175,verilog,,Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/mux.v,,getall,,,,,,,,
+Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sources_1/new/mux.v,1637215099,verilog,,Y:/Programs/vivado_project/ledconter_mistake/ledconter.srcs/sim_1/new/getall_tb.v,,mux,,,,,,,,

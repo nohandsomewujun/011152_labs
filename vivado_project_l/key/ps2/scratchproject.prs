@@ -1,0 +1,77 @@
+#-- Synopsys, Inc.
+#-- Version E-2011.03
+#-- Project file E:\hardware\practice\key\ps2\scratchproject.prs
+
+#project files
+add_file -verilog "D:/Synopsys/fpga_E201103/bin/../lib/xilinx/unisim.v"
+add_file -xilinx "E:/hardware/practice/key/ps2/ipcore_dir/rom.ngc"
+add_file -verilog "E:/hardware/practice/key/ps2/ipcore_dir/rom.v"
+add_file -verilog "E:/hardware/practice/key/ps2/vga_dis.v"
+add_file -verilog "E:/hardware/practice/key/ps2/ps2scan.v"
+add_file -verilog "E:/hardware/practice/key/ps2/vga_dis_top.v"
+add_file -verilog "E:/hardware/practice/key/ps2/p2_key.v"
+add_file -verilog "E:/hardware/practice/key/ps2/top.v"
+add_file -constraint "E:/hardware/practice/key/ps2/top.sdc"
+
+
+#implementation: "ps2"
+impl -add E:\hardware\practice\key\ps2 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+
+#device options
+set_option -technology SPARTAN6
+set_option -part XC6SLX16
+set_option -package csg324
+set_option -speed_grade -3
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "top"
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 100
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+set_option -no_sequential_opt 0
+
+# Xilinx Spartan6
+set_option -enable_prepacking 1
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 1
+set_option -resource_sharing 1
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/hardware/practice/key/ps2/top.edn"
+impl -active "ps2"

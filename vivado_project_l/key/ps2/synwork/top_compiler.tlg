@@ -1,0 +1,73 @@
+Selecting top level module top
+@N: CG364 :"E:\hardware\practice\key\ps2\ps2scan.v":21:7:21:13|Synthesizing module ps2scan
+
+@W: CL169 :"E:\hardware\practice\key\ps2\ps2scan.v":117:1:117:6|Pruning Register ps2_state_r 
+
+@N: CG364 :"E:\hardware\practice\key\ps2\p2_key.v":21:7:21:13|Synthesizing module ps2_key
+
+@N: CG364 :"E:\hardware\practice\key\ps2\vga_dis.v":21:7:21:13|Synthesizing module vga_dis
+
+@W: CG532 :"E:\hardware\practice\key\ps2\vga_dis.v":81:1:81:7|Initial statement will only initialize memories through the usage of $readmemh and $readmemb. Everything else is ignored
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[0] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[8] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[9] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[10] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[11] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[12] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[13] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[14] is always 0, optimizing ...
+@W: CL189 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Register bit charline[15] is always 0, optimizing ...
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 15 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 14 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 13 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 12 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 11 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 10 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 9 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 8 of charline[15:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 0 of charline[15:0] 
+
+@N: CG364 :"E:\hardware\practice\key\ps2\vga_dis_top.v":21:7:21:18|Synthesizing module vga_dis_test
+
+@N: CG364 :"E:\hardware\practice\key\ps2\top.v":21:7:21:9|Synthesizing module top
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 7 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 6 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 5 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 4 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 3 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 2 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":111:1:111:6|Pruning Register bit 1 of vga_rgb[7:0] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 5 of charline[7:1] 
+
+@W: CL260 :"E:\hardware\practice\key\ps2\vga_dis.v":89:1:89:6|Pruning Register bit 4 of charline[7:1] 
+
+@N: CL201 :"E:\hardware\practice\key\ps2\ps2scan.v":59:1:59:6|Trying to extract state machine for register num
+Extracted state machine for register num
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
